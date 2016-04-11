@@ -1,0 +1,875 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"mar",
+				"margin-bottom"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"font",
+				"font-weight"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"uper",
+				"uppercase"
+			],
+			[
+				"u",
+				"uppercase"
+			],
+			[
+				"co",
+				"color"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"bor",
+				"border-bottom"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"tex",
+				"text-decoration"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"magin",
+				"margin-left"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"vet",
+				"vertical-align"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"WID",
+				"width"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"cla",
+				"clear"
+			],
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ri",
+				"right"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"first",
+				"first-child"
+			],
+			[
+				"un",
+				"underline"
+			],
+			[
+				"page",
+				"pagegroup"
+			],
+			[
+				"close",
+				"closest"
+			],
+			[
+				"app",
+				"appendTo"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "wp-content/themes/RapportAnnuel/single.php",
+			"settings":
+			{
+				"buffer_size": 1720,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/functions.php",
+			"settings":
+			{
+				"buffer_size": 8862,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/library/custom-post-type.php",
+			"settings":
+			{
+				"buffer_size": 6449,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/single-custom_type.php",
+			"settings":
+			{
+				"buffer_size": 3784,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/library/admin.php",
+			"settings":
+			{
+				"buffer_size": 5640,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/page-custom.php",
+			"settings":
+			{
+				"buffer_size": 3539,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"SFTP: Monitor File (Upload on External Save)",
+				"SFTP: Monitor File (Upload on External Save)"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 174.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-Niveau3.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/archive.php",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/raportAnnuel2016/wp-config.php",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR63.528/sage-translations-master/fr_FR.po",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/raportAnnuel2016/wp-content/themes/raportAnnuel/gulpfile.js",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/raportAnnuel2016/wp-content/themes/raportAnnuel/lib/assets.php",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/raportAnnuel2016/wp-content/themes/raportAnnuel/lang/sage.pot",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/Theme/sage-master/page.php",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/15 - Defi Jeunesse/prod/js/1km.js",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/configuration (3).php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/no-sidebar.php",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/configuration.php",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR42.648/dev.fondation-sainte-justine.org-Mar-2016",
+		"/C/Users/choeti00/Desktop/DevRapportAnnuel/error_log (1)",
+		"/C/Users/choeti00/Desktop/php.ini",
+		"/C/Users/choeti00/Downloads/error_log",
+		"/C/Users/choeti00/Downloads/configuration (1).php",
+		"/C/Users/choeti00/Downloads/configuration.php",
+		"/C/Users/choeti00/Desktop/_main.yaml",
+		"/C/Users/choeti00/Desktop/phpinfo.php",
+		"/C/Users/choeti00/Desktop/wordpress/wp-content/themes/sage-master/functions.php",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR48.072/sage-master/functions.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/index.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/template-parts/content-page.php",
+		"/C/Users/choeti00/Desktop/wordpress/wp-content/themes/illdy/widgets/class-widget-skill.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/page.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/functions.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/widgets/class-widget-recent-posts.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/themoignage.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/no-sidebar2.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/template-parts/content.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/template-parts/content-none.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/left-sidebar.php",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/style.css",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/layout/css/custom.css",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/layout/css/main.css",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/layout/css/bootstrap.css",
+		"/C/Users/choeti00/Desktop/wordpress/illdy/widgets/class-widget-person.php",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/js/kiosque.js",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/partenairesFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/partenairesEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/nouvelle.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/news.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/FooterEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/HeaderFR.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/HeaderEN.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/FooterFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/customHTMLFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/js/duathlon.js",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/css/16kio.scss",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/sftp-config.json",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/css/16kio.css",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/css/sftp-config.json",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/tempFr.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/tempEn.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/textHomeEN.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/textHomeFR.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/headerMailFr.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/headerMailEn.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/FooterFr.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/footerMailEn.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/footerMailFr.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/HeaderFR.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/HeaderEN.html",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/html/FooterEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/FooterEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/partenairesFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/partenairesEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/cercleFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/cercleEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/photosVideosEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/photosVideosFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/defiFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/defiEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/activiteEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/activite.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/css/duathlon.scss",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/FooterFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/HeaderEN.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/HeaderFR.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/nouvelles.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/news.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/css/_mediaQueries.scss",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BSJ -Bal de Sainte-Justine/Prod/css/16bal.scss",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BSJ -Bal de Sainte-Justine/Prod/css/16bal.css",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BSJ -Bal de Sainte-Justine/Prod/css/_mediaQueries.scss",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/img/btInscrireEquipeFr.jpg",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/img/sloganFr.png",
+		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/css/cachou.css",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/sftp-config.json",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/HeaderFR.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/Contact.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/Concours.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/horaire.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/FooterFr.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/css/_mediaQueries.scss",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/css/calins.css",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/css/calins.scss",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/presse.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/graceAVosDons.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/graceAVosDons",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/accueil.html",
+		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/customHTMLFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16TH - Triathlon/Prod/html/HeaderFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/FooterFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/HeaderFR.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/HeaderEN.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/FooterEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/customHTMLEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/customHTMLFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/partenairesFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/partenairesEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/nouvelle.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/news.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/becomePartners.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/activité.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/cercle.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/circle.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/Activity.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/photosVideosFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/photosVideosEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/pagePMG.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/pagePMGEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/css/16bal.css",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/css/16bal.scss",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/défiEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/défiFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/css/_mediaQueries.scss"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"C:\\Users\\choeti00\\Documents\\GitHub\\raportAnnuel2016\\theme-name",
+			"R:\\WEB\\00 - CERCLE DES JEUNES LEADERS\\16_Le kiosque\\Prod\\html",
+			"R:\\WEB\\00 - EVENEMENTS SIGNATURES\\15-FemmeDeTete\\Prod",
+			"R:\\WEB\\00 - EVENEMENTS SIGNATURES\\15-FemmeDeTete",
+			"R:\\WEB\\00 - EVENEMENTS GRAND PUBLIC\\15 - Defi Jeunesse\\prod\\calendrier",
+			"R:\\WEB\\00 - EVENEMENTS GRAND PUBLIC\\15 - Défi Jeunesse\\prod\\html",
+			"R:\\WEB\\00 - EVENEMENTS GRAND PUBLIC\\15 - Défi Jeunesse\\prod",
+			"R:\\WEB\\00 - EVENEMENTS GRAND PUBLIC\\15 - Défi Jeunesse\\prod\\html",
+			"R:\\WEB\\00 - EVENEMENTS SIGNATURES\\Tournois Cachou\\prod\\html",
+			"R:\\WEB\\00 - EVENEMENTS SIGNATURES\\Tournois Cachou\\prod",
+			"R:\\WEB\\00 - EVENEMENTS SIGNATURES\\Tournois Cachou\\prod\\html",
+			"R:\\WEB\\00 - CERCLE DES JEUNES LEADERS\\15DU - Duathlon urbain\\prod\\js",
+			"R:\\WEB\\00 - CERCLE DES JEUNES LEADERS\\15DU - Duathlon urbain\\prod\\css",
+			"R:\\WEB\\00 - CERCLE DES JEUNES LEADERS\\15DU - Duathlon urbain\\prod\\html"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"single",
+			"register",
+			"register_taxonomy",
+			"hide_on_screen",
+			"layout",
+			"bones_ahoy",
+			"css-gradient(#dfdfdf,#f8f8f8);",
+			"@include css-gradient(#dfdfdf,#f8f8f8);",
+			"css-gradient",
+			"$text-color",
+			"wp-config.php",
+			"teamid",
+			"window.location",
+			"window",
+			"magic_quotes_sybase",
+			"get_post_format",
+			"192",
+			"192616",
+			"183789",
+			"initTherm",
+			"duath",
+			"https://secure.fchusj.org/cachou/img/",
+			"pagegroup",
+			"quatuo",
+			"roman",
+			"lowercase",
+			"#fundraising-page-header #page-name-container",
+			"#fundraising-page-header #page-name-container, #fundraising-page-header #amount-raised-container",
+			"therm",
+			"term",
+			"therm",
+			"18",
+			"fb",
+			"contac",
+			"._credit",
+			"980px",
+			"1000px",
+			"header",
+			"david",
+			"a {",
+			"concour",
+			"logo",
+			"https://secure.fchusj.org/balDeSainteJustine/",
+			"robot",
+			"https://secure.fchusj.org/balDeSainteJustine/img/",
+			"Plus mieux guérir",
+			"#article-content",
+			"#page-loginregister #article-content",
+			"#page-loginregister #article-content h2:first-child",
+			"15th",
+			"15e",
+			":hover",
+			"container",
+			"<div id=\"_InfoNews\">\n\nQuand :<br/>\nVendredi,  18 mars 2016<br/><br/>\n\nOù :<br/> \nLe Windsor<br/>\n1170, rue Peel<br/>\nMontréal, QC H3B 4P2<br/><br/>\n\nHoraire :<br/>\nCocktail dînatoire 19 h 30 à 22 h 00<br/>\nBal 22 h 00 à 3 h 00<br/><br/>\n\nPourquoi :<br/>\nPour guérir toujours plus d’enfants, et toujours mieux!<br/><br/>\n\nPrix des billets : <br/>\nCocktail dînatoire + Bal  250 $*<br/>	  	\nBal  150 $*<br/><br/>\n\nCode vestimentaire :<br/>	\nTenue de ville<br/><br/>\n\n* Un reçu partiel pour fins d’impôt sera émis.\n\n<img src=\"https://secure.fchusj.org/balDeSainteJustine/img/flagFR.jpg\"/>\n\n\n\n</div>\n\n\n\n\n\n<h2>NOUVELLES</h2>\n\n<h3>Le Bal de Sainte-Justine : on fête nos 15 ans!</h3>\n\n<p>Le comité organisateur et son porte-parole, Francisco Randez, vous invitent à renouer avec la tradition du Bal de Sainte-Justine le 18 mars prochain! C’est dans les salles de bal du Windsor que vous pourrez danser au son du DJ invité, vous régaler aux stations gourmandes et trinquer aux côtés de plus de 1500 jeunes gens d’affaires, des médias et artistes.\n\nPlongez dans un univers de fête foraine pour célébrer, mais surtout pour aider le CHU Sainte-Justine à guérir toujours plus d’enfants, et toujours mieux. Cette année, prenez part au Défi pour Sainte-Justine  afin d’amasser des dons pour la cause et courir la chance de gagner des supers prix! \n<br/><br/>\nEnvie de commencer la fête un peu plus tôt? Prolongez la soirée en participant au cocktail dînatoire , une réception privée qui précède le Bal.\n<br/><br/>\nPour la santé de nos enfants, fêtez avec nous le 15e anniversaire du Bal de Sainte-Justine! Les billets  sont en vente dès maintenant!\n</p>\n\n\n\n",
+			"hr",
+			"f47b2a",
+			"On parle de nous",
+			"https://secure.fchusj.org/GrandSapin/",
+			"width:auto",
+			"width: auto",
+			"width:auto",
+			"width: auto",
+			"width: auto;",
+			"width:auto;",
+			"postToRegistrantPrototype",
+			"_logoPartner",
+			".content",
+			"#details",
+			"#article-main-section",
+			"main",
+			"#article-content",
+			"3 tours",
+			"#footerTransac",
+			"#article-content-container",
+			"#main-container",
+			"aside",
+			"#question",
+			"btLumiere",
+			"merci",
+			"footerctn",
+			"#footerctn",
+			"En achetant une lumière à ",
+			"_fdvWrap",
+			"merci",
+			"wrapper clearfix",
+			"navHeader",
+			"header",
+			"header-container",
+			"030208",
+			".header-container",
+			"img",
+			"visited",
+			"#frame",
+			"#frame th",
+			"#layout",
+			"section",
+			"lutin",
+			"_homePageEn",
+			"initCMS",
+			"#section0 ._contentHome",
+			";\n",
+			"footerContainer",
+			"slimScrollBar",
+			"z-index",
+			"header",
+			"_textChoristes",
+			"mainNa",
+			"right",
+			".section",
+			"section",
+			"section0",
+			"_footMenu",
+			"max-width",
+			"_footInfo",
+			"_footMap",
+			"wrapFooter",
+			"_legal",
+			"red",
+			"li",
+			"nav#mainNav li::after",
+			"nav#mainNav a",
+			"h1",
+			".collapseActionTextDIV::after",
+			"éligible",
+			"Vestiaires au sous-sol",
+			"\n._corpoCercle",
+			"153013",
+			"fieldset"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"194292",
+			"192616",
+			"960px",
+			"980px",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/balDeSainteJustine/",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/balDeSainteJustine/img/",
+			"000000",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/GrandSapin/",
+			"admissible",
+			"182817",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/",
+			"183789",
+			"languagesupport",
+			"defijeunesse@fondationsaintejustine.org",
+			"",
+			"<a href=\"https://secure.fondationstejustine.org/registrant/cms.aspx?eventid=172566&languagecode=fr-ca&urlsegment=enregistrercalendrier\" target=\"_blank\">Enregistrement au calendrier des événements</a>",
+			"Enregistrement au calendrier des événements",
+			"https://",
+			"none",
+			"text-transform: none;",
+			"font-type",
+			"font",
+			"iCount",
+			"#{$imgPath}",
+			"https://secure.fondationstejustine.org/registrant/images",
+			".png)",
+			"jpg)",
+			"url(#{$imgPath}",
+			"172566",
+			"1km",
+			"ftp.fchusj.org/1km",
+			"",
+			"#{$imgPath}",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/cachou/img/",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/cachou/css/",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/cachou/js",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/cachou/",
+			"https://secure.fondationstejustine.org",
+			"0099db",
+			"cleanURl",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/duathlon2015/img/",
+			"https://secure.artezimages.com/secure/artez/sjfoundation/img/duathlon2015/",
+			"164955",
+			"1px solid #2e2e2f",
+			"2e2e2f",
+			";",
+			"#585c6b"
+		],
+		"reverse": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/RapportAnnuel/single.php",
+					"settings":
+					{
+						"buffer_size": 1720,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": true,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/RapportAnnuel/functions.php",
+					"settings":
+					{
+						"buffer_size": 8862,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5652,
+								5660
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3046.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/RapportAnnuel/library/custom-post-type.php",
+					"settings":
+					{
+						"buffer_size": 6449,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3848,
+								3848
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1178.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "wp-content/themes/RapportAnnuel/single-custom_type.php",
+					"settings":
+					{
+						"buffer_size": 3784,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "wp-content/themes/RapportAnnuel/library/admin.php",
+					"settings":
+					{
+						"buffer_size": 5640,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								445,
+								445
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "wp-content/themes/RapportAnnuel/page-custom.php",
+					"settings":
+					{
+						"buffer_size": 3539,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.sftp":
+	{
+		"height": 142.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 368.0,
+	"status_bar_visible": true
+}

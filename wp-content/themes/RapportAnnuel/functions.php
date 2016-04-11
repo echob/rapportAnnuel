@@ -12,7 +12,7 @@ sidebars, comments, etc.
 require_once( 'library/bones.php' );
 
 // CUSTOMIZE THE WORDPRESS ADMIN (off by default)
-// require_once( 'library/admin.php' );
+require_once( 'library/admin.php' );
 
 /*********************
 LAUNCH BONES
@@ -243,5 +243,20 @@ function bones_fonts() {
 }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
+
+
+
+add_filter('stylesheet_uri','wpi_stylesheet_uri',10,2);
+
+/**
+ * wpi_stylesheet_uri
+ * overwrite default theme stylesheet uri
+ * filter stylesheet_uri
+ * @see get_stylesheet_uri()
+ */
+function wpi_stylesheet_uri($stylesheet_uri, $stylesheet_dir_uri){
+
+    return $stylesheet_dir_uri.'/scss/style.css';
+}
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>
