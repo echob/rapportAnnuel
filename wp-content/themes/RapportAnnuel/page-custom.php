@@ -89,6 +89,24 @@
 
 							<?php endif; ?>
 
+							<?php 
+										 
+										$args = array('post_type' => 'niveau3');
+										 
+										//Define the loop based on arguments
+										 
+										$loop = new WP_Query( $args );
+										 
+										//Display the contents
+										 
+										while ( $loop->have_posts() ) : $loop->the_post();
+
+							?>
+
+							<?php the_field( 'accroche' ); ?>
+
+							<?php endwhile;?>
+
 						</main>
 
 						<?php get_sidebar(); ?>

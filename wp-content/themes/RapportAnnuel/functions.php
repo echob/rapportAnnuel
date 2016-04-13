@@ -236,7 +236,7 @@ This is a modification of a function found in the
 twentythirteen theme where we can declare some
 external fonts. If you're using Google Fonts, you
 can replace these fonts, change it in your scss files
-and be up and running in seconds.
+and be up and running in seconds.https://github.com/matthieua/WOW/blob/master/demo.html
 */
 function bones_fonts() {
   wp_enqueue_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
@@ -258,5 +258,14 @@ function wpi_stylesheet_uri($stylesheet_uri, $stylesheet_dir_uri){
 
     return $stylesheet_dir_uri.'/scss/style.css';
 }
+
+
+
+// WOW.js Annimation scroll
+wp_enqueue_script( 'wow', get_template_directory_uri() .  '/library/js/libs/wow.min.js', array( 'jquery' ), true );
+wp_enqueue_style( 'animations', get_template_directory_uri() . '/library/css/animate/animate.min.css' );
+
+
+
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

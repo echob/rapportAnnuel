@@ -43,6 +43,19 @@ var waitForFinalEvent = (function () {
 // how long to wait before deciding the resize has stopped, in ms. Around 50-100 should work ok.
 var timeToWaitForLast = 100;
 
+// init wow.js http://mynameismatthieu.com/WOW/docs.html
+wow = new WOW(
+  {
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0,          // default
+    mobile:       true,       // default
+    live:         true        // default
+  }
+)
+wow.init();
+
+
 
 /*
  * Here's an example so you can see how we're using the above function
