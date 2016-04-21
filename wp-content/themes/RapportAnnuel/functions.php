@@ -263,9 +263,9 @@ function wpi_stylesheet_uri($stylesheet_uri, $stylesheet_dir_uri){
 
 // WOW.js Annimation scroll
 wp_enqueue_script( 'wow', get_template_directory_uri() .  '/library/js/libs/wow.min.js', array( 'jquery' ), true );
-wp_enqueue_style( 'animations', get_template_directory_uri() . '/library/css/animate/animate.min.css' );
+wp_enqueue_style( 'animations', get_template_directory_uri() . '/library/css/animate.min.css' );
 
-
-
+wp_enqueue_script( 'flexslider', get_template_directory_uri() .  '/library/js/libs/jquery.flexslider.js', array( 'jquery' ), true );
+wp_enqueue_style( 'flexsliderCss', get_template_directory_uri() . '/library/css/flexslider.css' );
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

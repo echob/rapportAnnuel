@@ -184,10 +184,18 @@
 	"buffers":
 	[
 		{
-			"file": "wp-content/themes/RapportAnnuel/single.php",
+			"file": "wp-content/themes/RapportAnnuel/page-Accueil.php",
 			"settings":
 			{
-				"buffer_size": 1720,
+				"buffer_size": 1908,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/header.php",
+			"settings":
+			{
+				"buffer_size": 3373,
 				"line_ending": "Unix"
 			}
 		},
@@ -195,23 +203,39 @@
 			"file": "wp-content/themes/RapportAnnuel/functions.php",
 			"settings":
 			{
-				"buffer_size": 8862,
+				"buffer_size": 9477,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/RapportAnnuel/library/custom-post-type.php",
+			"file": "/C/Users/choeti00/AppData/Local/Temp/Rar$DR16.480/WOW-master/demo.html",
 			"settings":
 			{
-				"buffer_size": 6449,
+				"buffer_size": 0,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/library/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 4544,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/RapportAnnuel/single-custom_type.php",
+			"file": "wp-content/themes/RapportAnnuel/library/scss/style.scss",
 			"settings":
 			{
-				"buffer_size": 3784,
+				"buffer_size": 4022,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/library/scss/breakpoints/_base.scss",
+			"settings":
+			{
+				"buffer_size": 15359,
 				"line_ending": "Unix"
 			}
 		},
@@ -219,15 +243,31 @@
 			"file": "wp-content/themes/RapportAnnuel/library/admin.php",
 			"settings":
 			{
-				"buffer_size": 5640,
+				"buffer_size": 5842,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "wp-content/themes/RapportAnnuel/page-custom.php",
+			"file": "wp-content/themes/RapportAnnuel/library/css/admin.css",
 			"settings":
 			{
-				"buffer_size": 3539,
+				"buffer_size": 734,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/library/translation/README.md",
+			"settings":
+			{
+				"buffer_size": 793,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/library/bones.php",
+			"settings":
+			{
+				"buffer_size": 9131,
 				"line_ending": "Unix"
 			}
 		}
@@ -272,7 +312,53 @@
 	},
 	"file_history":
 	[
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/admin.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/style.css",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/css/styl.css",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/single-niveau3.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_481up.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_768up.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_1030up.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/style.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_base.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_2x.scss",
+		"/R/LE PIGEONNIER/BEAUSOLEIL VALÉRIE/Rapport_Annuel/Mobile/index.html",
+		"/R/LE PIGEONNIER/BEAUSOLEIL VALÉRIE/Rapport_Annuel/index.html",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/post-formats/format-aside.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_1240up.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_mixins.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_functions.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_typography.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_variables.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_grid.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_ie_grid.scss",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR98.048/eddiemachado-bones-9db85e4/library/scss/partials/_grid.scss",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR62.344/demo.html",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/home.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/gridset/css/gridst.css",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/gridset/css/gridset.css",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/gridset/sass/scss.scss",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR47.824/demo.html",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR75.824/css/gridset.css",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR22.824/demo.html",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/gridset/sass/gridset.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/css/style.css",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/index.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/functions.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/footer.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/header.php",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR47.672/sass/gridset.scss",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR60.672/demo.html",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR49.672/css/gridset.css",
+		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR15.672/js/gridset-overlay.js",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-Niveau3.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/custom-post-type.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-custom.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/single-custom_type.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/archive-custom_type.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/plugins/cmb2/example-functions.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/admin.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/single.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/archive.php",
 		"/C/Users/choeti00/Desktop/DevRapportAnnuel/raportAnnuel2016/wp-config.php",
 		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR63.528/sage-translations-master/fr_FR.po",
@@ -353,53 +439,7 @@
 		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/HeaderEN.html",
 		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/HeaderFR.html",
 		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/nouvelles.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/news.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/css/_mediaQueries.scss",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BSJ -Bal de Sainte-Justine/Prod/css/16bal.scss",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BSJ -Bal de Sainte-Justine/Prod/css/16bal.css",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BSJ -Bal de Sainte-Justine/Prod/css/_mediaQueries.scss",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/img/btInscrireEquipeFr.jpg",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/img/sloganFr.png",
-		"/R/WEB/00 - EVENEMENTS SIGNATURES/Tournoi Cachou 2016/prod/css/cachou.css",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/sftp-config.json",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/HeaderFR.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/Contact.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/Concours.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/horaire.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/FooterFr.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/css/_mediaQueries.scss",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/css/calins.css",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/css/calins.scss",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/presse.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/graceAVosDons.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/graceAVosDons",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/accueil.html",
-		"/R/WEB/00 - EVENEMENTS GRAND PUBLIC/16MC-MoisDesCalins/Prod/html/customHTMLFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16TH - Triathlon/Prod/html/HeaderFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/FooterFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/HeaderFR.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/HeaderEN.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/FooterEn.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/customHTMLEn.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/customHTMLFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/partenairesFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/partenairesEn.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/nouvelle.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/news.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/becomePartners.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/activité.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/cercle.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/circle.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/Activity.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/photosVideosFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/photosVideosEn.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/pagePMG.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/pagePMGEn.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/css/16bal.css",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/css/16bal.scss",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/défiEn.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/html/défiFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16 BM -Bal du Mont-Royal/Prod/css/_mediaQueries.scss"
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/news.html"
 	],
 	"find":
 	{
@@ -410,6 +450,8 @@
 		"height": 0.0,
 		"where_history":
 		[
+			"C:\\Users\\choeti00\\Desktop\\_dev\\rapportAnnuel\\wp-content\\themes\\RapportAnnuel",
+			"C:\\Users\\choeti00\\Desktop\\_dev\\rapportAnnuel",
 			"C:\\Users\\choeti00\\Documents\\GitHub\\raportAnnuel2016\\theme-name",
 			"R:\\WEB\\00 - CERCLE DES JEUNES LEADERS\\16_Le kiosque\\Prod\\html",
 			"R:\\WEB\\00 - EVENEMENTS SIGNATURES\\15-FemmeDeTete\\Prod",
@@ -431,6 +473,24 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"en_",
+			"lang",
+			".css",
+			"admin.css",
+			"menu-posts-niveau3",
+			"admin",
+			"script",
+			".js",
+			"script",
+			"is_home",
+			"min-width:1024px",
+			"-all",
+			"d-all",
+			"m-all",
+			"css",
+			".css",
+			"sidebar1",
+			"custom_post_example",
 			"single",
 			"register",
 			"register_taxonomy",
@@ -540,25 +600,7 @@
 			"mainNa",
 			"right",
 			".section",
-			"section",
-			"section0",
-			"_footMenu",
-			"max-width",
-			"_footInfo",
-			"_footMap",
-			"wrapFooter",
-			"_legal",
-			"red",
-			"li",
-			"nav#mainNav li::after",
-			"nav#mainNav a",
-			"h1",
-			".collapseActionTextDIV::after",
-			"éligible",
-			"Vestiaires au sous-sol",
-			"\n._corpoCercle",
-			"153013",
-			"fieldset"
+			"section"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -623,53 +665,82 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "wp-content/themes/RapportAnnuel/single.php",
+					"file": "wp-content/themes/RapportAnnuel/page-Accueil.php",
 					"settings":
 					{
-						"buffer_size": 1720,
+						"buffer_size": 1908,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1061,
+								1061
 							]
 						],
 						"settings":
 						{
-							"incomplete_sync": true,
+							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 300.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "wp-content/themes/RapportAnnuel/functions.php",
+					"file": "wp-content/themes/RapportAnnuel/header.php",
 					"settings":
 					{
-						"buffer_size": 8862,
+						"buffer_size": 3373,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5652,
-								5660
+								3372,
+								3363
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 660.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "wp-content/themes/RapportAnnuel/functions.php",
+					"settings":
+					{
+						"buffer_size": 9477,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								674,
+								674
 							]
 						],
 						"settings":
@@ -682,47 +753,17 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 3046.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "wp-content/themes/RapportAnnuel/library/custom-post-type.php",
-					"settings":
-					{
-						"buffer_size": 6449,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3848,
-								3848
-							]
-						],
-						"settings":
-						{
-							"incomplete_sync": null,
-							"remote_loading": false,
-							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1178.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 3,
-					"file": "wp-content/themes/RapportAnnuel/single-custom_type.php",
+					"file": "/C/Users/choeti00/AppData/Local/Temp/Rar$DR16.480/WOW-master/demo.html",
 					"settings":
 					{
-						"buffer_size": 3784,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
@@ -738,29 +779,30 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 60.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 4,
-					"file": "wp-content/themes/RapportAnnuel/library/admin.php",
+					"file": "wp-content/themes/RapportAnnuel/library/js/scripts.js",
 					"settings":
 					{
-						"buffer_size": 5640,
+						"buffer_size": 4544,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								445,
-								445
+								2077,
+								2077
 							]
 						],
 						"settings":
@@ -768,8 +810,9 @@
 							"incomplete_sync": null,
 							"remote_loading": false,
 							"synced": false,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -779,18 +822,78 @@
 				},
 				{
 					"buffer": 5,
-					"file": "wp-content/themes/RapportAnnuel/page-custom.php",
+					"file": "wp-content/themes/RapportAnnuel/library/scss/style.scss",
 					"settings":
 					{
-						"buffer_size": 3539,
+						"buffer_size": 4022,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								467,
+								469
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 120.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "wp-content/themes/RapportAnnuel/library/scss/breakpoints/_base.scss",
+					"settings":
+					{
+						"buffer_size": 15359,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								651,
+								651
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "wp-content/themes/RapportAnnuel/library/admin.php",
+					"settings":
+					{
+						"buffer_size": 5842,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5705,
+								5708
 							]
 						],
 						"settings":
@@ -802,7 +905,94 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
+						"translation.y": 2506.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "wp-content/themes/RapportAnnuel/library/css/admin.css",
+					"settings":
+					{
+						"buffer_size": 734,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								734,
+								734
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "wp-content/themes/RapportAnnuel/library/translation/README.md",
+					"settings":
+					{
+						"buffer_size": 793,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								309,
+								309
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "wp-content/themes/RapportAnnuel/library/bones.php",
+					"settings":
+					{
+						"buffer_size": 9131,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1151,
+								1151
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 720.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

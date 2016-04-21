@@ -57,6 +57,8 @@ wow.init();
 
 
 
+
+
 /*
  * Here's an example so you can see how we're using the above function
  *
@@ -118,16 +120,69 @@ function loadGravatars() {
 } // end function
 
 
+
 /*
  * Put all your regular jQuery in here.
 */
 jQuery(document).ready(function($) {
 
-  /*
-   * Let's fire off the gravatar function
-   * You can remove this if you don't need it
-  */
-  loadGravatars();
+          /*
+           * Let's fire off the gravatar function
+           * You can remove this if you don't need it
+          */
+        loadGravatars();
 
+        $.fn.extend({
+            animateCss: function (animationName, _callBackFunction) {
+                var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
+                $(this).addClass('animated ' + animationName).one(animationEnd, _callBackFunction);
+                //$(this).removeClass('animated ' + animationName);
+            }
+        });
+
+
+        /// Header animation Accueil + Témoignages /////
+        $('._layerTxt').animateCss('slideInRight');
+
+
+        /////// Témoignages /////////
+
+        var animCitation = function(){
+            window.scrollTo(0, 0);
+
+            $('._layerTxt').animateCss('slideOutLeft');
+
+            $('._layerCitation').css('visibility','visible').animateCss('slideInRight', function() {
+                $(window).off("scroll", animCitation);
+                //$(this).hide();
+            });
+        }
+
+        //if ( /* si page témoignage */ ) $(window).scroll(animCitation);
+
+        ///////    End Témoignages    /////////////////
+
+
+          /// vidéo président 
+
+          $("#videoPresident img").click(function(){
+            $('#videoPlayer').show();
+            var _vid = $('#videoPlayer').children("iframe")[0].src;
+            $('#videoPlayer').children("iframe")[0].src += "&autoplay=1";
+            //$(this).unbind("click");
+            $(".closeVid").click(function(){
+              $('#videoPlayer').hide();
+              $('#videoPlayer').children("iframe")[0].src = _vid;
+            });
+          });
+
+
+          //////// carrousel //////////////
+
+          $('#carousel1, #carousel2').flexslider({
+            animation: "slide",
+            slideshow: false
+          });
+    
 
 }); /* end of as page load scripts */

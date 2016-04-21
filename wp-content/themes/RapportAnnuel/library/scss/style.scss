@@ -111,10 +111,10 @@ you can add resource intensive styles.
 LARGE VIEWING SIZE
 This is for the larger monitors and possibly full screen viewers.
 *********************/
-@media only screen and (min-width: 1240px) {
+@media only screen and (min-width: 1920px) {
 
-	// styles in 1240up.scss
-	@import "breakpoints/1240up";
+	// styles in 1920up.scss
+	@import "breakpoints/1920up";
 
 } // end of media query
 
