@@ -48,7 +48,7 @@
 
 				<div id="inner-header" class="wrap cf">
 
-					<div id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a></div>
+					<div id="logo"><a href="<?php echo home_url(); ?>" rel="nofollow"> <img src="<?php echo get_template_directory_uri(); ?>/library/images/logo.png" /></a></div>
 
 					<nav role="navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
 						<?php wp_nav_menu(array(

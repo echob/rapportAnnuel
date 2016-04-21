@@ -167,13 +167,13 @@ HEADER STYLES
 *********************/
 
 .header {
-	background-color: $black;
+	background-color: #ffd23c;
 	z-index:1000;
 }
 
 	#logo {
 		float:left;
-		margin: 0.75em 0;
+		margin: 0.5em 0 0 0.5em;
 
 		a {
 			color: $white;
@@ -194,15 +194,16 @@ and more scalable.
 
 .nav {
 	border-bottom: 0;
-	margin: 0;
+	margin: 0 0 0 12em;
+	line-height: 3.8em;
 
 	li {
 
 		a {
-			display: block;
 			color: $white;
 			text-decoration: none;
 			padding: 0.75em;
+			text-transform: capitalize;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
