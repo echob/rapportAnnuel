@@ -74,27 +74,23 @@
 										'post_type' => 'el_carrousel'
 									));
 
-								
-									//$fondationCarousel = "";
-									//$chuCarousel = "";
-
 									while ( have_posts() ) : the_post(); 
 									
 										$tax_id = get_field('carrousel-page');
 
 										if ( $tax_id == '22') {
 
-											$fondationCarousel .= '<li class="">' . get_the_title() . ' <br /> ' . get_field('texte_carrousel') . '</li>';
+											$fondationCarousel .= '<li class="">'. get_field('texte_carrousel') . '</li>';
 
 										} else if ( $tax_id == '24' ){
 
-											$chuCarousel .= '<li class="">' . get_the_title() . ' <br /> ' . get_field('texte_carrousel') . '</li>';
+											$chuCarousel .= '<li class="box-chu">' . get_field('texte_carrousel') . '</li>';
 										}
 									
 									endwhile;
 						
-									echo '<div id="carousel1" class="flexslider m-all d1-d3"><ul class="slides">' . $fondationCarousel . '</ul></div>';
-									echo '<div id="carousel2" class="flexslider m-all d4-d6"><ul class="slides">' . $chuCarousel . '</ul></div>';
+									echo '<div id="carousel1" class="flexslider m-all d1-d3 squareBox"><ul class="slides">' . $fondationCarousel . '</ul></div>';
+									echo '<div id="carousel2" class="flexslider m-all d4-d6 squareBox"><ul class="slides">' . $chuCarousel . '</ul></div>';
 								
 								/// return to original query							 
 								$wp_query = clone $original_query;
@@ -105,10 +101,12 @@
 								<section class="d-all m-all" id="merciavous">
 
 									<h1><?php the_field("titre_merci"); ?></h1>
-									<h2><?php the_field("sous-titre_merci"); ?></h2>
-									<hr />
-									<p><?php the_field("texte_intro_merci"); ?></p>
-									<button type="button"> Merci lien</button>
+									<div class="wrap_merci">
+										<h2><?php the_field("sous-titre_merci"); ?></h2>
+										<hr />
+										<p><?php the_field("texte_intro_merci"); ?></p>
+										<button type="button"> Merci lien</button>
+									</div>
 
 								</section>
 

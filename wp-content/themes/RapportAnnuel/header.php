@@ -55,7 +55,7 @@
     					         'container' => false,                           // remove nav container
     					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
     					         'menu' => __( 'The Main Menu', 'bonestheme' ),  // nav name
-    					         'menu_class' => 'nav top-nav cf',               // adding custom nav class
+    					         'menu_class' => 'nav top-nav nav-left cf',               // adding custom nav class
     					         'theme_location' => 'main-nav',                 // where it's located in the theme
     					         'before' => '',                                 // before the menu
         			               'after' => '',                                  // after the menu
@@ -65,8 +65,35 @@
     					         'fallback_cb' => ''                             // fallback function (if there is one)
 						)); ?>
 
-					</nav>
+						
+						<?php wp_nav_menu(array(
+    					         'container' => false,                           // remove nav container
+    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+    					         'menu' => __( 'Main Right Lang', 'bonestheme' ),  // nav name
+    					         'menu_class' => 'nav top-nav nav-right cf',               // adding custom nav class
+    					         'theme_location' => 'main-lang-right'                 // where it's located in the theme
+						)); ?>
 
+						<?php wp_nav_menu(array(
+    					         'container' => false,                           // remove nav container
+    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+    					         'menu' => __( 'Main Right Menu', 'bonestheme' ),  // nav name
+    					         'menu_class' => 'nav top-nav box-nav nav-right cf',               // adding custom nav class
+    					         'theme_location' => 'main-nav-right'                 // where it's located in the theme
+ 						)); ?>
+
+					</nav>
+					<nav id="verticalMenu">
+							<?php wp_nav_menu(array(
+	    					         'container' => false,                           // remove nav container
+	    					         'container_class' => 'menu cf',                 // class of container (should you choose to use it)
+	    					         'menu' => __( 'Menu Vertical', 'bonestheme' ),  // nav name
+	    					         'menu_class' => 'nav vertical-nav',               // adding custom nav class
+	    					         'theme_location' => 'menu-vertical'                 // where it's located in the theme
+							)); ?>
+					</nav>
 				</div>
+
+
 
 			</header>

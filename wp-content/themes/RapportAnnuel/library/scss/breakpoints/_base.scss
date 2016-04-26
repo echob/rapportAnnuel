@@ -135,9 +135,13 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
 	}
 }
 
+
 h1, .h1 {
-	font-size: 2.5em;
-	line-height: 1.333em;
+	font-family:Knewave; 
+	color:#fff;
+	text-align:center;
+	font-size:8vw;
+	line-height: 7vw;
 }
 
 h2, .h2 {
@@ -169,6 +173,7 @@ HEADER STYLES
 .header {
 	background-color: #ffd23c;
 	z-index:1000;
+	height:60px;
 }
 
 	#logo {
@@ -191,19 +196,40 @@ easily write one group of styles for
 the navs on the site so our css is cleaner
 and more scalable.
 */
+	// menu vertical
+	#verticalMenu {
+		display: block;
+		position:relative;
+		width:100%;
+		margin:42px auto 0;
+		max-width:1920px;
+
+		.vertical-nav {
+			display:none;
+			position:absolute;
+			right:0;
+			background:#ffd23c;
+			padding:10px;
+			z-index:1000;
+			li {
+				display:block;
+				float:none;
+				margin:10px 0;
+			}
+
+		}
+	}
 
 .nav {
-	border-bottom: 0;
-	margin: 0 0 0 12em;
-	line-height: 3.8em;
+	display: inline-block;
 
 	li {
-
 		a {
 			color: $white;
 			text-decoration: none;
-			padding: 0.75em;
-			text-transform: capitalize;
+			margin: 0 0.75em;
+			padding: 0.2em 0.4em;
+			text-transform: uppercase;
 
 			/*
 			remember this is for mobile ONLY, so there's no need
@@ -508,9 +534,23 @@ POSTS & CONTENT STYLES
 /******************************************************************
 		Carousel
 ******************************************************************/
+	
+
+	#carousel1{
+		text-align:center;
+		color:#0181a6;
+		@include css-gradient-backgrnd(top, bg_formes2,60deg, #fec3c3, #fbd8c0);
+	}
+	
+	#carousel2{
+		text-align:center;
+		color:#0181a6;
+		@include css-gradient-backgrnd(left, bg_formes2,60deg, #51bade, #7ce3e9);
+	}
+
     .flexslider{
     	min-height:200px;
-    	background-color:blue;
+    	/*background-color:blue;*/
     	margin: 0;
 		padding: 0;
 		position: relative;
@@ -548,10 +588,7 @@ POSTS & CONTENT STYLES
 		  display: none;
 		  -webkit-backface-visibility: hidden;
 		}
-		.flexslider .slides img {
-		  width: 100%;
-		  display: block;
-		}
+
 		.flexslider .slides:after {
 		  content: ">>";
 		  display: block;
@@ -783,11 +820,14 @@ POSTS & CONTENT STYLES
 	width:100%;
 }
 
-._layerTxt{
+._layerTxt, ._layerTxtLeft{
+	font-family:Knewave; 
 	color: #fff;
 	font-size:6vw;
 	
 }
+
+._layerTxtLeft{ text-align:right; }
 
 ._layerCitation{
 	visibility:hidden;
@@ -845,35 +885,116 @@ ACCUEIL
 			padding: 0 20% 0 55%;
 	}
 
+	#MotDuPresident{
+		@include css-gradient-backgrnd(top, bg_formes,60deg, #d8ceff, #edcdff);
+		color:#694dd5;
 
-	#videoPresident {
-		//position: relative;
-		overflow:hidden;
-		cursor:pointer;
-		
-		#videoPlayer{
-			position:fixed;
-			display:none;
-			top:0;
-			z-index:100;
-			width:100%;
-			height:100%;
-			background:black;
-
-			.closeVid{
+		#videoPresident {
+			//position: relative;
+			overflow:hidden;
+			cursor:pointer;
+			
+			#videoPlayer{
 				position:fixed;
-				top:20px;
-				right:0;
-				padding:10px 10px 0 10px;
-				z-index:110;
-				background:blue;
-				font-weight: bold;
-				color: white;
-				font-size: 3vw;
+				display:none;
+				top:0;
+				z-index:100;
+				width:100%;
+				height:100%;
+				background:black;
+
+				.closeVid{
+					position:fixed;
+					top:20px;
+					right:0;
+					padding:10px 10px 0 10px;
+					z-index:110;
+					background:blue;
+					font-weight: bold;
+					color: white;
+					font-size: 3vw;
+				}
 			}
+		}
+
+		#presidentTextes{
+			text-align:center;
+			width: 60%;
+			margin:0 auto;
+			padding: 5%;
+		}
+	}
+
+	#merciavous{
+		border-bottom:#fff3c7 15px solid;
+		border-top:#fff3c7 15px solid;
+		background:url(../../library/images/bg_merci.jpg) no-repeat top #ffeca2;
+		background-size:auto 100%;
+		color:#fe5e5e;
+		.wrap_merci {
+			text-align:center;
+			width: 60%;
+			margin:0 auto 10%;
 		}
 	}
 } // Fin Accueil
+
+/******************************************************************
+		Merci à vous
+******************************************************************/
+.merciPage {
+	.intro_merci{
+		@include css-gradient-backgrnd(top, bg_formes,60deg, #fec3c3, #fbd8c0);
+		border-bottom:#ffb9b9 15px solid;
+		border-top:#ffb9b9 15px solid;
+		color:#fe5e5e;
+		text-align:center;
+		padding: 5%;
+
+		p {
+			width: 60%;
+			margin:0 auto;
+		}
+
+	}
+
+	/* définis l'ordre des éléments */
+		#txt1 { z-index:5;  }
+		#txt2 { z-index:10;  }
+		#img1{ z-index:25; }
+		/* Style des textes  */
+		#txt1 {
+				margin-top:4%;
+				padding-right: 60%;
+				div {
+					//@include animCss-delay(0s);
+				}
+		}
+
+		#txt2 {
+				margin-top:13%;
+				padding-right: 60%;
+				@include animCss-delay(0.2s);
+		}
+
+}
+///////// css général à replacer!!!!!!!!!!!!!!!!!! //////////////////////
+.boxTextOver{
+	display:none;
+	position: absolute;
+	top:0px;
+}
+
+.box {
+	width:100%;
+	text-align:center;
+	padding:20px 0;
+}
+
+.box_grand_don {
+	color:#fe5e5e;
+	@include css-gradient-backgrnd(top, bg_formes,60deg, #fec3c3, #fbd8c0);
+}
 
 
 

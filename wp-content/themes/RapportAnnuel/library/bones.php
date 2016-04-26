@@ -210,6 +210,9 @@ function bones_theme_support() {
 	register_nav_menus(
 		array(
 			'main-nav' => __( 'The Main Menu', 'bonestheme' ),   // main nav in header
+			'main-nav-right' => __( 'Main Right Menu', 'bonestheme' ),
+			'main-lang-right' => __( 'Main Right Lang', 'bonestheme' ),  
+			'menu-vertical' => __( 'Menu Vertical', 'bonestheme' ), 
 			'footer-links' => __( 'Footer Links', 'bonestheme' ) // secondary nav in footer
 		)
 	);

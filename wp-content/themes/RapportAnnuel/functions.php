@@ -239,7 +239,9 @@ can replace these fonts, change it in your scss files
 and be up and running in seconds.https://github.com/matthieua/WOW/blob/master/demo.html
 */
 function bones_fonts() {
-  wp_enqueue_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+  //wp_enqueue_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
+  wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Knewave');
+  //wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Poppins');
 }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');
@@ -260,12 +262,11 @@ function wpi_stylesheet_uri($stylesheet_uri, $stylesheet_dir_uri){
 }
 
 
-
 // WOW.js Annimation scroll
 wp_enqueue_script( 'wow', get_template_directory_uri() .  '/library/js/libs/wow.min.js', array( 'jquery' ), true );
 wp_enqueue_style( 'animations', get_template_directory_uri() . '/library/css/animate.min.css' );
 
 wp_enqueue_script( 'flexslider', get_template_directory_uri() .  '/library/js/libs/jquery.flexslider.js', array( 'jquery' ), true );
-wp_enqueue_style( 'flexsliderCss', get_template_directory_uri() . '/library/css/flexslider.css' );
+
 
 /* DON'T DELETE THIS CLOSING TAG */ ?>

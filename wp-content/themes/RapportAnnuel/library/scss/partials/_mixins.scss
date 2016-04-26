@@ -47,13 +47,27 @@ really slow down your CSS. Don't overdo it.
 *********************/
 
 /* @include css-gradient(#dfdfdf,#f8f8f8); */
-@mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {
+@mixin css-gradient($from: #dfdfdf, $to: #f8f8f8) {		
 	background-color: $to;
 	background-image: -webkit-gradient(linear, left top, left bottom, from($from), to($to));
 	background-image: -webkit-linear-gradient(top, $from, $to);
 	background-image: -moz-linear-gradient(top, $from, $to);
 	background-image: -o-linear-gradient(top, $from, $to);
 	background-image: linear-gradient(to bottom, $from, $to);
+}
+
+
+/* @include css-gradient-backgrnd(bg_formes, 60deg, #d8ceff, #edcdff); */
+@mixin css-gradient-backgrnd($pos:top, $img:bg_formes, $deg:60deg, $from: #d8ceff, $to: #edcdff) {
+	$bgUrl:				url(../../library/images/#{$img}.png);
+	background-color: 	$to;
+	background-image: 	$bgUrl, -webkit-gradient(linear, left top, left bottom, from($from), to($to));
+	background-image: 	$bgUrl, -webkit-linear-gradient($deg, $from, $to);
+	background-image:	$bgUrl, -moz-linear-gradient($deg, $from, $to);
+	background-image: 	$bgUrl, -o-linear-gradient($deg, $from, $to);
+	background-image: 	$bgUrl, linear-gradient($deg, $from, $to);
+	background-attachment: fixed;
+	background-position: $pos;
 }
 
 /*********************

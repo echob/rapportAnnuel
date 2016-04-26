@@ -141,8 +141,10 @@ jQuery(document).ready(function($) {
         });
 
 
-        /// Header animation Accueil + Témoignages /////
+        /// Header animation /////
         $('._layerTxt').animateCss('slideInRight');
+
+        $('._layerTxtLeft').animateCss('slideInLeft');
 
 
         /////// Témoignages /////////
@@ -185,4 +187,29 @@ jQuery(document).ready(function($) {
           });
     
 
+    ////////////// menu ////////////
+
+    $('#menu-item-188, .vertical-nav').click(function(){
+      $('.vertical-nav').slideToggle();
+    });
+
+
+
+    //Set la hauteur des box égal.
+    window.onresize = resizeBoxHeight;
+    var resizeBoxHeight = function(){
+
+      $(".squareBox").each(function(){
+        $(this).height( $(this).width() );
+      });
+
+      $(".tiersBox").each(function(){
+        $(this).height( $(this).width()*1.5 );
+      });
+
+    }
+    resizeBoxHeight();
+
 }); /* end of as page load scripts */
+
+
