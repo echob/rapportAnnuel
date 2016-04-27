@@ -49,29 +49,42 @@
 										<p><?php the_field('texte_grand_benevole'); ?></p>
 									</div>
 
-									<div class="d1-d2 m-all">
-							            <img src="<?php the_field('image_benevole_1'); ?>" class="img100"/>
-							            <div class="box box_grand_don">
+									<div class="d1-d2 m-all boxGrandBenevole tiersBox">
+							            <img class="showBoxOver img100" src="<?php the_field('image_benevole_1'); ?>" />
+								        <div class="boxTextOver box_pink">
+						                	<div class="closeBoxOver">X</div>
+						                 	<p><?php the_field('texte_benevole_1'); ?></p>
+						          		</div>
+
+						          		<div class="box box_grand_don">
 							            	<h3><?php the_field('nom_benevole_1'); ?></h3>
 								            <img src="img/pink_spacer.gif"/>
 								        </div>
 						            </div>
 						            
-						            <div class="d3-d4 m-all">
-							            <img src="<?php the_field('image_benevole_2'); ?>" class="img100"/>
-							            <div class="box box_grand_don">
+						            <div class="d3-d4 m-all boxGrandBenevole tiersBox">
+							            <img class="showBoxOver img100" src="<?php the_field('image_benevole_2'); ?>"/>
+							            <div class="boxTextOver box_pink">
+						                	<div class="closeBoxOver">X</div>
+						                 	<p><?php the_field('texte_benevole_2'); ?></p>
+						          		</div>
+						          		<div class="box box_grand_don">
 							            	<h3><?php the_field('nom_benevole_2'); ?></h3>
 							            	<img src="img/pink_spacer.gif"/>
 							            </div>
 						            </div>
 						            
 						            
-						            <div class="d5-d6 m-all">
-							            <img src="<?php the_field('image_benevole_3'); ?>" class="img100"/>
+						            <div class="d5-d6 m-all boxGrandBenevole tiersBox">
+							            <img class="showBoxOver img100" src="<?php the_field('image_benevole_3'); ?>" />
+							            <div class="boxTextOver box_pink">
+						                	<div class="closeBoxOver">X</div>
+						                 	<p><?php the_field('texte_benevole_3'); ?></p>
+						          		</div>
 							            <div class="box box_grand_don">
 							            	<h3><?php the_field('nom_benevole_3'); ?></h3>							            
 							            	<img src="img/pink_spacer.gif"/>
-							            </div>
+							            </div> 
 						            </div>
 
 								</section>
@@ -96,13 +109,19 @@
 
 									while ( have_posts() ) : the_post(); 
 									
-										$tax_id = get_field('carrousel-page');
+										$type = get_field('carrousel_type');
+										/*
+										chu : Accueil – CHU
+										fondation : Accueil – Fondation
+										leucan : Merci – Leucan
+										soleil : Merci – Enfant Soleil
+										*/
 
-										if ( $tax_id == '52') {
+										if ( $type == 'leucan') {
 
 											$carousel1 .= '<li class="">'. get_field('texte_carrousel') . '</li>';
 
-										} else if ( $tax_id == '53' ){
+										} else if ( $type== 'soleil' ){
 
 											$carousel2 .= '<li class="box-chu">' . get_field('texte_carrousel') . '</li>';
 										}
@@ -118,23 +137,23 @@
 								?>
 								</section>
 								
-								<section class="d1-d3 m-all" id="reneAngelil">
+								<section class="d1-d3 m-all box_rene squareBox" id="reneAngelil">
 
-					                <div class="box box_rene">
-					                	<h3><?php the_field('titre_accroche_rene'); ?></h3>
-					                	<img src="img/blue_spacer.gif"/>
-					                	<p><?php the_field('accroche_rene'); ?></p>
-					                </div>
+				                	<h3><?php the_field('titre_accroche_rene'); ?></h3>
+				                	<img src="img/blue_spacer.gif"/>
+				                	<p><?php the_field('accroche_rene'); ?></p>
+				                	<div class="showBoxOver">show</div>
 
-					                <div class="box_blue boxTextOver">
+					                <div class="box_blue boxTextOver squareBox">
+					                	<div class="closeBoxOver">X</div>
 					                 	<h3><?php the_field('titre_rene'); ?></h3>
 					                 	<p><?php the_field('texte_rene'); ?></p>
 					          		</div>
 
 								</section>
 
-								<section class="d4-d6 m-all">
-					                <img src="img/rene.jpg" class="img100"/>
+								<section class="d4-d6 m-all squareBox">
+					                <img src="<?php the_field('image_rene'); ?>" class="img100"/>
 								</section>
 
 

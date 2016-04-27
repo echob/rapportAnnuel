@@ -28,7 +28,7 @@ function bones_ahoy() {
   load_theme_textdomain( 'bonestheme', get_template_directory() . '/library/translation' );
 
   // USE THIS TEMPLATE TO CREATE CUSTOM POST TYPES EASILY
-  require_once( 'library/custom-post-type.php' );
+  //require_once( 'library/custom-post-type.php' );
 
   // launching operation cleanup
   add_action( 'init', 'bones_head_cleanup' );
@@ -241,7 +241,7 @@ and be up and running in seconds.https://github.com/matthieua/WOW/blob/master/de
 function bones_fonts() {
   //wp_enqueue_style('googleFonts', 'http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic');
   wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Knewave');
-  //wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Poppins');
+  wp_enqueue_style('googleFonts', 'https://fonts.googleapis.com/css?family=Poppins');
 }
 
 add_action('wp_enqueue_scripts', 'bones_fonts');

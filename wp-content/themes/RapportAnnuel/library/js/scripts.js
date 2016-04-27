@@ -196,7 +196,6 @@ jQuery(document).ready(function($) {
 
 
     //Set la hauteur des box égal.
-    window.onresize = resizeBoxHeight;
     var resizeBoxHeight = function(){
 
       $(".squareBox").each(function(){
@@ -207,8 +206,20 @@ jQuery(document).ready(function($) {
         $(this).height( $(this).width()*1.5 );
       });
 
+      $(".boxTextOver").each(function(){
+        $(this).height( $(this).parent().height() );
+      });
+
+      
+
     }
+    window.onresize = resizeBoxHeight;
     resizeBoxHeight();
+
+
+    $(".showBoxOver").click(function(){ $(this).next(".boxTextOver").show();  });
+
+    $(".closeBoxOver").click(function(){ $(this).parent(".boxTextOver").hide();  });
 
 }); /* end of as page load scripts */
 

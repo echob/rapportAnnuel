@@ -76,13 +76,19 @@
 
 									while ( have_posts() ) : the_post(); 
 									
-										$tax_id = get_field('carrousel-page');
+										$type = get_field('carrousel_type');
+										/*
+										chu : Accueil – CHU
+										fondation : Accueil – Fondation
+										leucan : Merci – Leucan
+										soleil : Merci – Enfant Soleil
+										*/
 
-										if ( $tax_id == '22') {
+										if ( $type == 'fondation') {
 
 											$fondationCarousel .= '<li class="">'. get_field('texte_carrousel') . '</li>';
 
-										} else if ( $tax_id == '24' ){
+										} else if ( $type == 'chu' ){
 
 											$chuCarousel .= '<li class="box-chu">' . get_field('texte_carrousel') . '</li>';
 										}
