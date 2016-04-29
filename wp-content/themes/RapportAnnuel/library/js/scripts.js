@@ -48,7 +48,7 @@ wow = new WOW(
   {
     boxClass:     'wow',      // default
     animateClass: 'animated', // default
-    offset:       0,          // default
+    offset:       200,          // default
     mobile:       true,       // default
     live:         true        // default
   }
@@ -185,6 +185,12 @@ jQuery(document).ready(function($) {
             animation: "slide",
             slideshow: false
           });
+
+          $('#carouselNiveau3').flexslider({
+            animation: "slide",
+            video: true,  
+            slideshow: false
+          });
     
 
     ////////////// menu ////////////
@@ -200,10 +206,11 @@ jQuery(document).ready(function($) {
 
       $(".squareBox").each(function(){
         $(this).height( $(this).width() );
+        $(this).children(".imgH100").height( $(this).height()+4 );
       });
 
       $(".tiersBox").each(function(){
-        $(this).height( $(this).width()*1.5 );
+        $(this).height( $(this).previous().height() );
       });
 
       $(".boxTextOver").each(function(){
@@ -220,6 +227,9 @@ jQuery(document).ready(function($) {
     $(".showBoxOver").click(function(){ $(this).next(".boxTextOver").show();  });
 
     $(".closeBoxOver").click(function(){ $(this).parent(".boxTextOver").hide();  });
+
+    $(".lien_niveau3").click(function(){ window.location = $(this).find(".next").attr("href");  });
+
 
 }); /* end of as page load scripts */
 

@@ -26,16 +26,15 @@
 
 								<section class="article-header m-all d-all">
 									<div class="_layer" id="masterLayer">
-
-										<img src="<?php the_field('entete_img1'); ?>">
+										<img class="img100" src="<?php the_field('entete_img1'); ?>">
 									</div>
 
 									<div class="_layer" id="img1">
-										<img src="<?php the_field('entete_img2'); ?>">
+										<img class="img100" src="<?php the_field('entete_img2'); ?>">
 									</div>
 
 									<div class="_layer" id="img2">
-										<img src="<?php the_field('entete_img3'); ?>">
+										<img class="img100" src="<?php the_field('entete_img3'); ?>">
 									</div>
 
 									<div class="_layer">
@@ -86,17 +85,17 @@
 
 										if ( $type == 'fondation') {
 
-											$fondationCarousel .= '<li class="">'. get_field('texte_carrousel') . '</li>';
+											$fondationCarousel .= '<li>'. get_field('texte_carrousel') . '</li>';
 
 										} else if ( $type == 'chu' ){
 
-											$chuCarousel .= '<li class="box-chu">' . get_field('texte_carrousel') . '</li>';
+											$chuCarousel .= '<li>' . get_field('texte_carrousel') . '</li>';
 										}
 									
 									endwhile;
 						
-									echo '<div id="carousel1" class="flexslider m-all d1-d3 squareBox"><ul class="slides">' . $fondationCarousel . '</ul></div>';
-									echo '<div id="carousel2" class="flexslider m-all d4-d6 squareBox"><ul class="slides">' . $chuCarousel . '</ul></div>';
+									echo '<div id="carousel1" class="flexslider m-all d1-d3 "><ul class="slides">' . $fondationCarousel . '</ul></div>';
+									echo '<div id="carousel2" class="flexslider m-all d4-d6 "><ul class="slides">' . $chuCarousel . '</ul></div>';
 								
 								/// return to original query							 
 								$wp_query = clone $original_query;

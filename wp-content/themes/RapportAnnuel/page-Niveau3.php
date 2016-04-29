@@ -15,7 +15,7 @@
 
 <?php get_header(); ?>
 
-			<div id="content" class="listeDonateurs niveau3">
+			<div id="content" class="niveau3">
 
 				<div id="inner-content" class="wrap cf">
 
@@ -31,46 +31,52 @@
 							</div>
 
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> >
-
-								<?php
-
-								///// Carrousel Fondation + CHU Variables//////////
-
-								query_posts(array(
-									'numberposts' => -1,
-									'post_type' => 'liste_donateurs'
-								));
-
-								$arrDonateurs=array();
-
-								while ( have_posts() ) : the_post(); 
-
-									$categorieName = get_field('categorie_de_don_liste')->name;
-									$htmlCtn = get_field('liste_de_donateurs');
-									$position = get_field('position_don_liste');
-
-									//Organise les contenus de liste
-									if ( isset( $arrDonateurs[$categorieName][$position] ) )
-										$arrDonateurs[$categorieName][$position + 1] = $htmlCtn;	
-									else $arrDonateurs[$categorieName][$position] = $htmlCtn;
-
-									ksort($arrDonateurs[$categorieName]);
 								
-								endwhile;
+									<?php
 
-								foreach ($arrDonateurs as $key => $arrValue) {
-									echo 	'<section id="listeDonateurs" class="">'.
-											'<h2>'.$key.'</h2>';
-									foreach ($arrValue as $key => $value) { 
-										echo  $value;
-									}
-									echo 	'</section>';
-								}
+									query_posts(array(
+										'numberposts' => -1,
+										'post_type' => 'niveau3'
+									));
 
-								/// return to original query							 
-								$wp_query = clone $original_query;
-								the_post();
-								?>
+									while ( have_posts() ) : the_post();
+
+
+									if ( get_field('page_link_niveau3')->post_name != $pagename ) continue;
+
+									?>
+
+									<section class="sectionNiveau3">
+										<h2><?php the_title(); ?></h2>
+
+										<?php the_field('texte_niveau3'); ?>
+
+										<?php
+										$html = get_field('images_caroussel_niveau3');
+										$video = get_field('video_niveau3');
+
+										if ( !empty($html) ) {
+												$dom = new domDocument;
+												$dom->loadHTML($html);
+												$dom->preserveWhiteSpace = false;
+
+												$allImages = $dom->getElementsByTagName('img');
+												$carousel = "";
+
+												foreach ($allImages as $img) {
+													$carousel .= '<li><img class="img100" src="'. $img->getAttribute('src') . '"></li>';
+												}
+											
+											echo '<div id="carouselNiveau3" class="flexslider"><ul class="slides">' . $carousel . '</ul></div>';
+										}
+
+										if ( !empty($video) )
+											echo '<div class="video"><iframe width="100%" src="'.$video.'?enablejsapi" frameborder="0" allowfullscreen></iframe></div>';
+										?>
+
+									</section>
+
+									<?php endwhile; ?>
 
 							</article>
 

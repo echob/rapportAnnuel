@@ -15,7 +15,7 @@
 
 <?php get_header(); ?>
 
-			<div id="content" class="listeDonateurs niveau3">
+			<div id="content">
 
 				<div id="inner-content" class="wrap cf">
 
@@ -59,7 +59,7 @@
 								endwhile;
 
 								foreach ($arrDonateurs as $key => $arrValue) {
-									echo 	'<section id="listeDonateurs" class="">'.
+									echo 	'<section class="listeDonateurs">'.
 											'<h2>'.$key.'</h2>';
 									foreach ($arrValue as $key => $value) { 
 										echo  $value;

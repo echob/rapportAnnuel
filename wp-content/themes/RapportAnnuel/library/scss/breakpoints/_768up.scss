@@ -53,8 +53,8 @@ NAVIGATION STYLES
 			has the possibility of being a mobile device.
 			*/
 			&:hover, &:focus {
-				color: $white;
-				text-decoration: none;
+				/*color: $white;
+				text-decoration: none;*/
 			}
 		}
 
@@ -66,7 +66,7 @@ NAVIGATION STYLES
 		*/
 		ul.sub-menu,
 		ul.children {
-			margin-top: 0;
+			/*margin-top: 0;
 			border: 1px solid #ccc;
 			border-top: 0;
 			position: absolute;
@@ -95,18 +95,18 @@ NAVIGATION STYLES
 					a {
 						border-bottom: 0;
 					}
-				}
+				}*/
 
 				/*
 				if you need to go deeper, go nuts
 				just remember deeper menus suck
 				for usability. k, bai.
 				*/
-				ul {
+				/*ul {
 					top:0;
 					left:100%;
 				}
-			}
+			}*/
 
 			/* highlight sub-menu current page */
 			li.current-menu-item,
@@ -118,8 +118,8 @@ NAVIGATION STYLES
 
 		/* showing sub-menus */
 		&:hover > ul {
-			top: auto;
-			visibility:visible;
+			/*top: auto;
+			visibility:visible;*/
 		}
 
 	} /* end .menu ul li */

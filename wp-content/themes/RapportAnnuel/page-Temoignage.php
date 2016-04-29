@@ -37,15 +37,15 @@
 								<section class="article-header m-all d-all">
 									<div class="_layer" id="masterLayer">
 
-										<img src="<?php the_field('entete_img1'); ?>">
+										<img class="img100" src="<?php the_field('entete_img1'); ?>">
 									</div>
 
 									<div class="_layer" id="img1">
-										<img src="<?php the_field('entete_img2'); ?>">
+										<img class="img100" src="<?php the_field('entete_img2'); ?>">
 									</div>
 
 									<div class="_layer" id="img2">
-										<img src="<?php the_field('entete_img3'); ?>">
+										<img class="img100" src="<?php the_field('entete_img3'); ?>">
 									</div>
 
 									<div class="_layer">
