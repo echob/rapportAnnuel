@@ -8,7 +8,7 @@
 				        </div>
 				        
 				        <div class="bt_footer d1-d2 m-all">
-				        	<a id="bt_footer1" href="index.php/fr/liste-donateurs/">
+				        	<a id="bt_footer1" href="index.php/fr/temoignage-magalie/">
 				        		<img src="<?php echo get_template_directory_uri(); ?>/library/images/bt_magalie.png" class="img100"/>
 					            <img id="mag" src="<?php echo get_template_directory_uri(); ?>/library/images/bt_magalie_hover.png" />
 					        </a>

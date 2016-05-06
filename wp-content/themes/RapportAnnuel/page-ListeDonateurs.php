@@ -36,35 +36,85 @@
 
 								///// Carrousel Fondation + CHU Variables//////////
 
-								query_posts(array(
+
+								$myArgs = array(
 									'numberposts' => -1,
-									'post_type' => 'liste_donateurs'
-								));
+									 'post_type' => 'liste_donateurs',
+									  'orderby' => 'category_name',
+									   'order' => 'ASC'
+								);
 
+								$myQuery = new WP_Query( $myArgs );
+
+								//$arrCat=get_categories( array ('orderby' => 'name', 'order' => 'asc' ) );
 								$arrDonateurs=array();
+								$arrDonateursString=array();
 
-								while ( have_posts() ) : the_post(); 
+								while ( $myQuery->have_posts() ) : $myQuery->the_post(); 
 
-									$categorieName = get_field('categorie_de_don_liste')->name;
-									$htmlCtn = get_field('liste_de_donateurs');
-									$position = get_field('position_don_liste');
+									$categorie 		= get_field('categorie_de_don_liste');
+									$categorieName	= $categorie->name;
+									$categorieID	= $categorie->slug;
+									$htmlCtn		= '<div>'.get_field('liste_de_donateurs').'</div>';
+									//$htmlCtn		= "";
+									$position 		= get_field('position_don_liste');
+
+									if ( get_field('image_don_liste') ) {
+										$htmlCtn .=	'<div class="wrap_temoignage_don">';
+										$htmlCtn .=		'<img class="img100 imgTemoignage" src="'.get_field('image_don_liste').' " />';
+										$htmlCtn .=		'<div class="temoignage_don">';
+										$htmlCtn .=			'<div class="ruban_bleu">';
+										$htmlCtn .=				'<div class="fleche_right"><img src="'.get_template_directory_uri().'/library/images/bt_fleche_right.png"/></div>';
+																				$htmlCtn .=				'<div>'.get_field('texte_intro_citation_don_liste').'</div>';
+
+										$htmlCtn .=				'<div class="bout_ruban"><img src="'.get_template_directory_uri().'/library/images/ruban.png"/></div>';
+										$htmlCtn .=			'</div>';
+										$htmlCtn .=			'<div class="temoignageOver">'.get_field('texte_citation_don_liste').'</div>';
+										$htmlCtn .=		'</div>';
+										$htmlCtn .=	'</div>';
+									}
 
 									//Organise les contenus de liste
-									if ( isset( $arrDonateurs[$categorieName][$position] ) )
-										$arrDonateurs[$categorieName][$position + 1] = $htmlCtn;	
-									else $arrDonateurs[$categorieName][$position] = $htmlCtn;
+									if(is_numeric($categorieID)) {
+										
+										if ( isset( $arrDonateurs[$categorieID][$position] ) ) $position = $position+1;
 
-									ksort($arrDonateurs[$categorieName]);
-								
+										$arrDonateurs[$categorieID] = [
+											'name' => $categorie->name
+										];
+										$arrDonateurs[$categorieID][$position] =$htmlCtn;
+
+										ksort($arrDonateurs[$categorieID]);
+									} else {
+
+										if ( isset( $arrDonateursString[$categorieID][$position] ) ) $position = $position+1;
+
+										$arrDonateursString[$categorieID] = [
+											'name' => $categorie->name
+										];
+										$arrDonateursString[$categorieID][$position] =$htmlCtn;
+
+										ksort($arrDonateursString[$categorieID]);
+										
+									}
+									//sort($arrDonateurs);
+
+								//print_r($categorie);
 								endwhile;
+
+								//print_r($arrDonateurs);
+
+								ksort($arrDonateurs);
+
+								array_merge($arrDonateurs, $arrDonateursString);
 
 								foreach ($arrDonateurs as $key => $arrValue) {
 									echo 	'<section class="listeDonateurs">'.
-											'<h2>'.$key.'</h2>';
+											'<h3>'.$arrValue[name].'</h3>';
 									foreach ($arrValue as $key => $value) { 
 										echo  $value;
 									}
-									echo 	'</section>';
+									echo 	'<hr class="hr_blue"/>  </section>';
 								}
 
 								/// return to original query							 

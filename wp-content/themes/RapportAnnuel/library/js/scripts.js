@@ -121,6 +121,67 @@ function loadGravatars() {
 
 
 
+
+(function( $ ){
+
+        $.fn.boxTemoignage = function(){
+
+          if ( !$(this).length) return false;
+
+          window.onresize = function(){ location.reload(); }
+          
+            // Variables + Cache objects
+          $.each($(this), function(){
+
+            var $this = $(this);
+            
+            var $this_imgTemoignage      = $this.find('.imgTemoignage'),
+                $this_fleche_right       = $this.find('.fleche_right'),
+                $this_fleche_rightImg    = $this_fleche_right.find('img'),
+                $this_ruban_bleu         = $this.find('.ruban_bleu'),
+                $this_temoignageOver     = $this.find('.temoignageOver'),
+                $this_temoignage_don     = $this.find('.temoignage_don'),
+                $this_bout_ruban         = $this.find('.bout_ruban'),
+                $this_bout_rubanImg      = $this_bout_ruban.find('img');
+
+            var imgHeight         = $this_imgTemoignage.height(),
+                flecheHeight      = $this_fleche_rightImg.height(),
+                rubanHeight       = $this_ruban_bleu.height() + flecheHeight/2,
+                rubanPos          = imgHeight - flecheHeight/2,
+                containerHeight   = imgHeight + rubanHeight,
+                temoignageHeight  = $this_temoignageOver.height();
+
+                $this.css({'height':containerHeight -20 });
+                $this_temoignage_don.css({'top':rubanPos, 'height':rubanHeight });
+                $this_temoignageOver.height(0).show();
+
+                if ( temoignageHeight > imgHeight ) $this_temoignageOver.css({'overflow-y':'scroll'});
+
+                $this_fleche_right.toggle(function(){
+                      $this_fleche_rightImg.animateRotate(0, 180, function(){
+                          $this_fleche_right.animate({ 'margin-top':0 });
+                          $this_temoignage_don.animate({'top': -flecheHeight/2});
+                          $this_temoignageOver.animate({'height': containerHeight - rubanHeight});
+                          $this_bout_ruban.animate({'bottom':'-12px' }).css({'top':'auto'});
+                          $this_bout_rubanImg.animate({'margin-top':'-12px', 'margin-bottom':0});
+                      });   
+
+                    }, function(){
+                        $this_fleche_rightImg.animateRotate(180, 0, function(){
+                            $this_temoignageOver.animate({'height': 0});
+                            $this_temoignage_don.animate({'top': rubanPos}); 
+                            $this_fleche_right.animate({ 'margin-top':-flecheHeight/2 });    
+                            $this_bout_ruban.animate({'bottom':'auto', 'top':'-12px'});
+                            $this_bout_rubanImg.animate({'margin-top':0, 'margin-bottom':'-12px'});
+                        });
+                });
+          });
+          //return $this;
+        }
+
+
+})( jQuery );
+
 /*
  * Put all your regular jQuery in here.
 */
@@ -130,7 +191,7 @@ jQuery(document).ready(function($) {
            * Let's fire off the gravatar function
            * You can remove this if you don't need it
           */
-        loadGravatars();
+        //loadGravatars();
 
         $.fn.extend({
             animateCss: function (animationName, _callBackFunction) {
@@ -143,24 +204,33 @@ jQuery(document).ready(function($) {
 
         /// Header animation /////
         $('._layerTxt').animateCss('slideInRight');
-
         $('._layerTxtLeft').animateCss('slideInLeft');
 
 
         /////// Témoignages /////////
 
         var animCitation = function(){
+            if ( $(window).scrollTop() > 20) return false;
             window.scrollTo(0, 0);
+            $('body').css({'position': 'fixed','overflow-y': 'scroll'});
 
             $('._layerTxt').animateCss('slideOutLeft');
 
             $('._layerCitation').css('visibility','visible').animateCss('slideInRight', function() {
+
                 $(window).off("scroll", animCitation);
-                //$(this).hide();
+                $('body').css({'position': 'relative','overflow-y': 'auto'});
             });
+
+            $('#masterLayer img').addClass('filtre');
+                        
+
         }
 
-        //if ( /* si page témoignage */ ) $(window).scroll(animCitation);
+        if ( $('body').hasClass( "page-template-page-Temoignage")  ){
+          $(window).scroll(animCitation);
+        }
+          
 
         ///////    End Témoignages    /////////////////
 
@@ -225,12 +295,38 @@ jQuery(document).ready(function($) {
 
 
     $(".showBoxOver").click(function(){ $(this).next(".boxTextOver").show();  });
-
     $(".closeBoxOver").click(function(){ $(this).parent(".boxTextOver").hide();  });
-
     $(".lien_niveau3").click(function(){ window.location = $(this).find(".next").attr("href");  });
 
 
+    //anim box Temoignage - page liste donateurs
+
+    $.fn.animateRotate = function(startAngle, endAngle, complete){
+        return this.each(function(){
+            var elem = $(this);
+
+            $({deg: startAngle}).animate({deg: endAngle}, {
+                /*duration: duration,
+                easing: easing,*/
+                step: function(now){
+                    elem.css({
+                      '-moz-transform':'rotate('+now+'deg)',
+                      '-webkit-transform':'rotate('+now+'deg)',
+                      '-o-transform':'rotate('+now+'deg)',
+                      '-ms-transform':'rotate('+now+'deg)',
+                      'transform':'rotate('+now+'deg)'
+                    });
+                },
+                complete: complete || $.noop
+            });
+        });
+    };
+
+    
+
+    $('.wrap_temoignage_don').boxTemoignage();
+
+//window.resize();
 }); /* end of as page load scripts */
 
 

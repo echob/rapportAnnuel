@@ -35,8 +35,7 @@
 							<article id="post-<?php the_ID(); ?>" <?php post_class( 'cf' ); ?> >
 
 								<section class="article-header m-all d-all">
-									<div class="_layer" id="masterLayer">
-
+									<div class="_layer fond_filtre" id="masterLayer">
 										<img class="img100" src="<?php the_field('entete_img1'); ?>">
 									</div>
 
@@ -56,9 +55,9 @@
 
 									<div class="_layer">
 										<div class="_layerCitation" id="citation">
+											<img src="<?php the_field('icone_citation') ?>">
+											<?php the_field('entete_citation_1') ?>; 
 											<?php
-												echo "<span class='_quote'>".get_field('entete_citation_1')."</span>"; 
-
 												if ( get_field('texte_intro_merci') == "" ){
 													echo "<br />".get_field('signature_citation'); 
 												} else {
@@ -70,70 +69,31 @@
 									
 								</section>
 
-								<section class=" " id="MotDuPresident">
-									
-								<p>
-									<div class="wow fadeIn _excerpt"><?php the_excerpt(); ?></div>
-								</p>
-
-								</section>
-
-								
-
-								<?php
-								///// Carrousel Fondation + CHU //////////
-
-									/*$posts = get_posts(array(
-										'numberposts' => -1,
-										'post_type' => 'event',
-										'meta_key' => 'location',
-										'meta_value' => 'melbourne'
-									));*/
-
-									$posts = get_posts(array(
-										'numberposts' => -1,
-										'post_type' => 'el_carrousel'
-									));
-
-									if($posts)
-									{
-
-										$fondationCarrousel = "";
-										$chuCarrousel = "";
-
-										foreach($posts as $post)
-										{
-											$tax_id = get_field('carrousel-page');
-
-											if ( $tax_id == '20') {
-
-												$fondationCarrousel .= '<li> ' . get_the_title() . '</li>';
-
-											} else if ( $tax_id == '24' ){
-
-												$chuCarrousel .= '<li> ' . get_the_title() . '</li>';
-											}
-										}
-
-										echo '<section class="carrousel" id="LaFondation"> <ul>' . $fondationCarrousel . '</ul> </section>';
-										echo '<section class="carrousel" id="LeCHU"> <ul>' . $chuCarrousel . '</ul> </section>';
-									}
-
-								?>
-
-								<section id="MerciAVous">
-
-									<h1><?php echo $titreMerci; ?></h1>
-									<h2><?php echo $sousTitreMerci; ?></h2>
-									<hr />
-									<p><?php echo $texteIntroMerci; ?></p>
-									<button type="button"> Merci lien</button>
-
-								</section>
-
-								<section id="EtatsFinancierEtListeDesDonateurs">
-
-								</section>
+								<section class="tem_text d1-d3 m-all">
+					                <?php the_field('page_temoignage_txt_1'); ?>
+					            </section>
+					                
+					            
+					            <section class="d4-d6 m-hide">
+					                <img src="<?php the_field('page_temoignage_img_1'); ?>" class="img100"/>
+					            </section>
+					    
+					    
+					            <section class="d1-d3 m-all">
+					                <img src="<?php the_field('page_temoignage_img_2'); ?>" class="img100"/>
+					            </section>
+					    
+					    
+					            <section class="tem_text d4-d6 m-all">
+					                <?php the_field('page_temoignage_txt_2'); ?>
+					            </section>
+					            
+					            
+					            <section class="box_un_pas d-all m-all" style="background:url(<?php the_field('imgtemoignage_pied_de_page_img'); ?>) no-repeat top center <?php the_field('temoignage_pied_de_page_coul'); ?>;">
+									<h1><?php the_field('temoignage_pied_de_page_titre1'); ?></h1>
+									<h2><?php the_field('temoignage_pied_de_page_titre2'); ?></h2>
+					            	<?php the_field('temoignage_pied_de_page_texte'); ?>
+					            </section>
 
 
 							</article>

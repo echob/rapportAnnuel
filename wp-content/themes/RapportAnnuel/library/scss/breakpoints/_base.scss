@@ -160,6 +160,7 @@ h2, .h2 {
 }
 
 h3, .h3 {
+	font-weight: 700;
 	font-size: 1.3em;
 }
 
@@ -214,6 +215,7 @@ HEADER STYLES
 	background-color: #ffd23c;
 	z-index:1000;
 	height:60px;
+	width: 100%;
 }
 
 	#logo {
@@ -513,6 +515,105 @@ ACCUEIL
 } // Fin Accueil
 
 /******************************************************************
+	Témoignage
+******************************************************************/
+.page-template-page-Temoignage {
+			font-size:1.1em;
+
+		/* définis l'ordre des éléments */
+			#txt1 { z-index:5;  }
+			#img1{ z-index:10; }
+			#txt2 { z-index:15;  }
+			#img2{ z-index:20; }
+			#txt3 { z-index:25;  }
+			#citation { z-index:30;  } 
+
+
+			/* Style des textes  */
+
+			#txt1 {
+					margin-top:12%;
+					padding-left: 50%;
+					div {
+						//@include animCss-delay(0s);
+					}
+			}
+
+			#txt2 {
+					
+					margin-top:20%;
+					padding-left: 53%;
+					@include animCss-delay(0.2s);
+			}
+
+			#txt3 {
+					margin-top:28%;
+					padding-left: 55%;
+					@include animCss-delay(0.4s);
+			}
+
+			#citation {
+					margin-top:12%;
+					padding: 0 20% 0 55%;
+			}
+
+
+		.fond_filtre {
+			background:#94d2d7;
+		}
+
+		.filtre {
+			filter: grayscale(1);
+			-webkit-filter: grayscale(1);
+			-moz-filter: grayscale(1);
+			-o-filter: grayscale(1);
+			-ms-filter: grayscale(1);
+			opacity:0.3;
+			-webkit-transition: all 0.5s ease;
+		    -moz-transition: all 0.5s ease;
+		    -o-transition: all 0.5s ease;
+		    transition: all 0.5s ease;
+		}
+
+		.tem_text {
+			padding:5%;
+		}
+
+		h3 {
+			color:#44d0e9;
+			font-weight:bold;
+		}
+
+		.box_un_pas {
+			border-bottom:#fff3c7 15px solid;
+			border-top:#fff3c7 15px solid;
+			text-align:center;
+			padding: 2% 20%;
+			color:#fe5e5e;
+			background-size:auto 100%;
+		
+			h1 {
+				font-family:Knewave; 
+				color:#fff;
+				text-align:center;
+				font-size:4vw;
+				line-height:3vw;
+				margin: 0.67em 0;
+			}
+
+			h2 {
+				font-family:Knewave; 
+				color:#fff;
+				text-align:center;
+				font-size:8vw;
+				line-height:6vw;
+				margin: 0.4em 0;
+			}
+
+
+		}
+}
+/******************************************************************
 		Merci à vous
 ******************************************************************/
 .page-template-page-MerciAVous {
@@ -753,22 +854,33 @@ ACCUEIL
 ******************************************************************/
 .page-template-page-ListeDonateurs {
 	article {
-	  -moz-column-width: 20em;
-	  -webkit-column-width: 20em;
-	  -moz-column-gap: 1em;
-	  -webkit-column-gap: 1em;
+		-moz-column-width: 18em;
+		-webkit-column-width: 18em;
+		-moz-column-gap: 1em;
+		-webkit-column-gap: 1em;
+		background:#ffe5d4;
+		display:block;
+		padding:3% 6%;
+
+		hr {
+			margin-right: 80%;
+		    width: 20%;
+		}
 	}
 
 	section{
 		display: inline-block;
+		background:none;
+		font-size:12px;
+		color:#ff6664;
 		margin: 0.25rem;
 		padding: 1rem;
 		width: 100%;
-		background: #efefef;
+		line-height:18px;
 	}
 
 	.article-header {
-		@include css-gradient-backgrnd(top, bg_formes,60deg, #fec3c3, #fbd8c0);
+		@include css-gradient(60deg, #fec3c3, #fbd8c0);
 		color:#fe5e5e;
 		text-align:center;
 		width:100%;
@@ -779,7 +891,75 @@ ACCUEIL
 			padding: 5px 0;
 		}
 	}
+
+
+	.wrap_temoignage_don {
+		color:#0181a6;
+		font-size:11px;
+		position:relative;
+		margin: 10px 0 0;
+	}
+
+
+	.wrap_temoignage_don h3 {
+		color:#ff5656;
+	}
+
+	.temoignage_don {
+		position:absolute;
+		width:100%;
+		overflow:inherit !important;
+	}
+
+
+	.temoignageOver {
+		overflow:hidden;
+		margin:0;
+		padding:0 5px 0;
+		background:#fff;
+		width: 100%;
+		display:none;
+	}
+
+	.ruban_bleu {
+		background:#7adee9;
+		padding:5px 5px 5px 14px;
+		margin-left:-9px;
+		min-height:60px;
+		position:relative;
+	}
+
+	.bout_ruban {
+		position: absolute;
+		top:-12px;
+		bottom:0;
+		left:0;
+	    overflow:hidden;
+	    height:12px;
+
+	    img {
+	    	margin:0 0 -12px 0;
+	    }
+	}
+
+	.fleche_right {
+		margin:-24px 10px 10px 0;
+		border-spacing: 0;
+		padding:0;
+		float:right;
+		cursor:pointer;
+		img {
+  			backface-visibility: hidden;
+	    }
+	}
+
+	.wrap_liste_don hr {
+		margin-right: 80%;
+	    width: 20%;
+	}
 }
+
+
 /******************************************************************
 PAGE NAVI STYLES
 ******************************************************************/

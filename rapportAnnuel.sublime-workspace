@@ -4,16 +4,32 @@
 		"selected_items":
 		[
 			[
+				"print",
+				"print_r"
+			],
+			[
+				"in",
+				"inherit"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"u",
+				"url"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
 				"article",
 				"article-header"
 			],
 			[
 				"for",
 				"foreach	foreach …"
-			],
-			[
-				"back",
-				"background-image"
 			],
 			[
 				"font",
@@ -44,10 +60,6 @@
 				"font-size"
 			],
 			[
-				"in",
-				"inline-block"
-			],
-			[
 				"to",
 				"top"
 			],
@@ -57,10 +69,6 @@
 			],
 			[
 				"uper",
-				"uppercase"
-			],
-			[
-				"u",
 				"uppercase"
 			],
 			[
@@ -191,6 +199,22 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "wp-content/themes/RapportAnnuel/page-ListeDonateurs.php",
+			"settings":
+			{
+				"buffer_size": 4286,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "wp-content/themes/RapportAnnuel/library/js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 11140,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -232,27 +256,39 @@
 	},
 	"file_history":
 	[
-		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/merci_a_vous_carroussel.html",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-ListeDonateurs.php",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-Niveau3.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-Temoignage.php",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/header.php",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/js/scripts.js",
-		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/css/corpo.css",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/HeaderFR.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/HeaderEN.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/nouvelles.html",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_base.scss",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_768up.scss",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_481up.scss",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_mixins.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-Niveau3.php",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/photosVideosFr.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/photosVideosEn.html",
+		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16DU-DuathlonUrbain/prod/html/news.html",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/js/scripts.js",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/js/libs/jquery.flexslider.js",
+		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/css/corpo.css",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-ListeDonateurs.php",
+		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/liste_donateurs.html",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/footer.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-Accueil.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_481up.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/breakpoints/_768up.scss",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-MerciAVous.php",
+		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/liste_etats_financiers.html",
+		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/Grand_donateurs.html",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_mixins.scss",
+		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/merci_a_vous_carroussel.html",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/header.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/footerBU.php",
+		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/style.scss",
+		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/menuVertical.html",
 		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/footer.html",
 		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/cercle_des_jeunes_leaders.html",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-MerciAVous.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/functions.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/admin.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/custom-post-type.php",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-Accueil.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/bones.php",
-		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/prod/html/liste_donateurs.html",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/page-ListeDonateurs.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/taxonomy-custom_cat.php",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/partials/_variables.scss",
@@ -281,7 +317,6 @@
 		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR59.624/simple-carousel-master/carousel-css-only.html",
 		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR95.328/simple-carousel-master/carousel-images.html",
 		"/C/Users/choeti00/AppData/Local/Temp/Rar$DR11.624/simple-carousel-master/carousel-images.html",
-		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/library/scss/style.scss",
 		"/R/WEB/00 - FONDATION SITE CORPO/16-Rapport Annuel/html/merci_a_vous.html",
 		"/R/NUMERISATION/Direction Generale/DOC.pdf",
 		"/C/Users/choeti00/Desktop/_dev/rapportAnnuel/wp-content/themes/RapportAnnuel/page-custom.php",
@@ -348,22 +383,11 @@
 		"/C/Users/choeti00/Desktop/wordpress/illdy/functions.php",
 		"/C/Users/choeti00/Desktop/wordpress/illdy/widgets/class-widget-recent-posts.php",
 		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/themoignage.php",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/no-sidebar2.php",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/template-parts/content.php",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/template-parts/content-none.php",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/left-sidebar.php",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/style.css",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/layout/css/custom.css",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/layout/css/main.css",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/layout/css/bootstrap.css",
-		"/C/Users/choeti00/Desktop/wordpress/illdy/widgets/class-widget-person.php",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/js/kiosque.js",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/partenairesFr.html",
-		"/R/WEB/00 - CERCLE DES JEUNES LEADERS/16_Le kiosque/Prod/html/partenairesEn.html"
+		"/C/Users/choeti00/Desktop/wordpress/illdy/page-templates/no-sidebar2.php"
 	],
 	"find":
 	{
-		"height": 42.0
+		"height": 38.0
 	},
 	"find_in_files":
 	{
@@ -401,6 +425,50 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"extend",
+			"loadGravatars",
+			"extend",
+			"$this",
+			"$arrDonateurs",
+			"zoom",
+			"img100",
+			"this",
+			"url(",
+			"ruban_bleu",
+			"list",
+			"background-image:linear-gradient(",
+			"inc",
+			"don",
+			"intro",
+			"don",
+			"grand",
+			"url(../img/",
+			"carousel1",
+			"3d",
+			"carousel1",
+			"wrap_gran_don",
+			"squareBox",
+			"lien_niveau3",
+			"lien_niveau",
+			"<?php the_field('lien",
+			"<div class=\"next\">",
+			"box_grand_don",
+			"box",
+			"box\"",
+			"box ",
+			".box",
+			"spacer",
+			"img/",
+			"spacer",
+			"img/",
+			"spacer",
+			"hr",
+			" <br />\n      ",
+			"background:linear-gradient(",
+			"img/",
+			"close",
+			"box3col",
+			"box",
 			"section",
 			"bt_footer",
 			"img",
@@ -484,51 +552,7 @@
 			"min-width:1024px",
 			"-all",
 			"d-all",
-			"m-all",
-			"css",
-			".css",
-			"sidebar1",
-			"custom_post_example",
-			"single",
-			"register",
-			"register_taxonomy",
-			"hide_on_screen",
-			"layout",
-			"bones_ahoy",
-			"css-gradient(#dfdfdf,#f8f8f8);",
-			"@include css-gradient(#dfdfdf,#f8f8f8);",
-			"css-gradient",
-			"$text-color",
-			"wp-config.php",
-			"teamid",
-			"window.location",
-			"window",
-			"magic_quotes_sybase",
-			"get_post_format",
-			"192",
-			"192616",
-			"183789",
-			"initTherm",
-			"duath",
-			"https://secure.fchusj.org/cachou/img/",
-			"pagegroup",
-			"quatuo",
-			"roman",
-			"lowercase",
-			"#fundraising-page-header #page-name-container",
-			"#fundraising-page-header #page-name-container, #fundraising-page-header #amount-raised-container",
-			"therm",
-			"term",
-			"therm",
-			"18",
-			"fb",
-			"contac",
-			"._credit",
-			"980px",
-			"1000px",
-			"header",
-			"david",
-			"a {"
+			"m-all"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -536,6 +560,15 @@
 		"regex": false,
 		"replace_history":
 		[
+			"_this",
+			"$arrNum",
+			"@include css-gradient(",
+			"url(../../library/images/",
+			"<?php get_field('lien",
+			"<a class=\"next\" href=\"<?php the_field('lien_1_niveau3'); ?>\">",
+			"",
+			"@include css-gradient-backgrnd(top, bg_formes,",
+			"<?php echo get_template_directory_uri(); ?>/library/images/",
 			"type_liste_don",
 			"custom_type2",
 			"top, bg_formes",
@@ -596,8 +629,70 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "wp-content/themes/RapportAnnuel/page-ListeDonateurs.php",
+					"settings":
+					{
+						"buffer_size": 4286,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3177,
+								3177
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 204.0,
+						"translation.y": 1095.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "wp-content/themes/RapportAnnuel/library/js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 11140,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								7128,
+								7128
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3618.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
